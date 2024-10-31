@@ -15,7 +15,7 @@ public class Questao3 {
 			System.out.println("2. Metablolismo Basal");
 			System.out.println("3. Impapar");
 			System.out.println("0. Sair");
-			System.out.println("Opção: ");
+			System.out.println("Opï¿½ï¿½o: ");
 			escolha = scanner.nextInt();
 			scanner.nextLine();
 			
@@ -30,10 +30,10 @@ public class Questao3 {
 				Questao4.impaPar(scanner);
 				break;
 			case 0:
-				System.out.println("Bye");
+				System.out.println("AtÃ© a proxima");
 				break;
 			default:
-				System.out.println("Tchonga");				
+				System.out.println("Tente Novamente");				
 			  }
         } while (escolha != 0);
 
